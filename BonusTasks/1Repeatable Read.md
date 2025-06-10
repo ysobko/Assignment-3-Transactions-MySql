@@ -1,6 +1,8 @@
  Repeatable Read (REPEATABLE READ)
+
  
-<img width="1151" alt="Screenshot 2025-06-06 at 15 16 14" src="https://github.com/user-attachments/assets/e1df4706-2aad-4dd5-90af-5a072e4c491c" />
+ <img width="1156" alt="Screenshot 2025-06-10 at 10 05 08" src="https://github.com/user-attachments/assets/bbdc9304-5c5d-42f5-9886-86955f77b08e" />
+
 
 В першій транзакції бачимо статус 'Delay'. В іншій транзакції паралельно змінюємо статус на 'On-Time' та робимо COMMIT.
 Після цього знову читаємо першу транзакцію і бачимо що 'Delay' не змінилось.
